@@ -2,6 +2,7 @@ package com.hokumus.obj.staticvalue;
 
 public class A {
 	static {
+		System.out.println("git güncellemesi");
 		System.out.println("1");		
 	}	
 	public A() {
