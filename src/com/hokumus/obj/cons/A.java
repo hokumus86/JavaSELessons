@@ -1,4 +1,4 @@
-package com.hokumu.obj.cons;
+package com.hokumus.obj.cons;
 
 public class A {
 	private int sayi = 0;

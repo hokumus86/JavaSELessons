@@ -1,12 +1,17 @@
-package com.hokumu.obj.staticvalue;
+package com.hokumus.obj.staticvalue;
 
-public class Runner {
-	
+public class Runer {
+	 
 	public static void main(String[] args) {
-		C temp = new C();
+		A.sayi=10;
+		A temp = new A();
 		temp.sayi1=12;
-		B yeni = new B();
-		yeni.sayi1=9;			
+		A yeni = new A();
+		yeni.sayi1=9;
+		
+		System.out.println(A.sayi);
+		System.out.println(temp.sayi);
+		temp.sayi =11;
 		System.out.println(A.sayi);
 		System.out.println(temp.sayi);
 		System.out.println(yeni.sayi);

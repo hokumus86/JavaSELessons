@@ -1,4 +1,4 @@
-package com.hokumu.obj.staticvalue;
+package com.hokumus.obj.staticvalue;
 
 public class Runner1 {
 	 
